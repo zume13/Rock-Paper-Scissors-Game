@@ -1,0 +1,107 @@
+body, html{
+    margin: 0;
+    height: 100%;
+    position: relative;
+    font-family: "Jersey 10", sans-serif;
+    color: rgb(68, 68, 68);
+
+}
+
+.jersey-10-regular {
+  font-family: "Jersey 10", sans-serif;
+  font-weight: 70;
+  font-style: normal;
+}
+
+
+.game-container{
+    display: grid;
+    grid-template-rows: 70px 50px 150px 30px 100px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    row-gap: 5px;
+    background-color: rgb(237, 243, 149);
+    padding: 10px;
+    border-radius: 20px;
+    border: solid gray 1px;
+
+}
+
+
+h1, h2, p, .result{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.button-container{
+    display: grid;
+    grid-template-columns: repeat(3, 150px);
+    column-gap: 20px;
+    width: 100%;
+    place-items: center;
+    justify-items: center;
+}
+
+.button-container button{
+    place-self: center;
+    justify-items: center;
+    padding: 0;
+}
+
+
+.bottom{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.info p, .result{
+    place-self: center;
+    padding: 2.5px;
+    font-size: 40px;
+
+}
+
+.again button{
+   height: 60px;
+
+}
+
+#Rock, #Paper, #Scissors{
+    background-color: gray;
+    height: 90px;
+    border-radius: 10px;
+    padding-bottom: 89.5px;
+    cursor: pointer;
+
+}
+.rock, .paper, .scissors{
+    height: 90px;
+    width: 80px;
+    border-radius: 11px;
+
+}
+
+.again {
+    place-self: center;
+
+}
+
+.again-btn{
+    height: 30px;
+    width: 100px;
+    padding: 0;
+    cursor: pointer;
+
+}
+
+.again-img{
+    height: 100%;
+    width: 100%;
+
+}
