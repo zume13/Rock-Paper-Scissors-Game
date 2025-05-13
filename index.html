@@ -4,35 +4,73 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Bato Bato Pick</title>
-    <link rel="stylesheet" href="batobato.css">
+    <link rel="stylesheet" href="General.css">
+    <link rel="stylesheet" href="PlayerContainer.css">
+    <link rel="stylesheet" href="ComputerContainer.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Jersey+10&family=Press+Start+2P&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Silkscreen:wght@400;700&display=swap" rel="stylesheet">
 </head>
 <body>
-    <div class="game-container">
-        <h1>Bato-Bato-Pick Game!</h1>
-        <h2 id="move">Pick Your Move</h2>
-        <div class="button-container">
-            <button id="Rock"> 
-                <img src="images/rock.png" class="rock">
-            </button>
-            <button id="Paper">
-                <img src="images/paper.png" class="paper">
-            </button>
-            <button id="Scissors">
-                <img src="images/scissor.png" class="scissors">
-            </button>
+
+<div class="Game-Section">
+        <div class="title">
+            <h1>Bato-Bato-Pick Game!</h1>
         </div>
-        <div class="result"><p id="result.g">Result:</p></div>
-        <div class="bottom">
-            <div class="again">
-                <button class="again-btn">
-                    <img src="images/play again.png" class="again-img">
+    <div class="Game-Container">
+        <div class="C-button-container">
+                <button id="C-Rock"> 
+                    <img src="images/rock.png" class="C-rock">
+                </button>
+                <button id="C-Paper">
+                    <img src="images/paper.png" class="C-paper">
+                </button>
+                <button id="C-Scissors">
+                    <img src="images/scissor.png" class="C-scissors">
+                </button>
+        </div>
+            <div class="C-pick">
+                <h2 id="C-move">Computer is Picking <br> a Move</h2>
+            </div>
+
+            <div class="middle">
+            <div class="Start">
+                <button class="Start-btn">
+                    <img src="images/Start.jpg" class="Start-img">
                 </button> 
             </div>
+
+        <div id="result">
+            <img src="images/vs.png" class="vs-img">
         </div>
+
+        <div class="score-board">
+            <div class="C-Score-Container">
+                <p id="C-Score">0</p>
+            </div>
+            <div class="P-Score-Container">
+                <p id="P-Score">0</p>
+            </div>
+        </div>
+        </div>
+
+            <div class="P-pick">
+                <h2 id="P-move">Pick Your Move</h2>
+            </div>
+            <div class="P-button-container">
+                <button id="P-Rock"> 
+                    <img src="images/rock.png" class="P-rock">
+                </button>
+                <button id="P-Paper">
+                    <img src="images/paper.png" class="P-paper">
+                </button>
+                <button id="P-Scissors">
+                    <img src="images/scissor.png" class="P-scissors">
+                </button>
+            </div>
     </div>
+</div>
+
 </body>
 <script src="batobato.js"></script>
 </html>
