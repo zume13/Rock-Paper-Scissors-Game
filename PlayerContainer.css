@@ -1,0 +1,59 @@
+.P-button-container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 40px;
+    grid-row: 5;
+    place-content: center;
+    place-items: center;
+}
+
+#P-Rock{
+    height: 10vh;
+    width: 5vw;
+    padding: 0;
+
+}
+
+#P-Paper{
+    height: 10vh;
+    width: 5vw;
+    padding: 0;
+    
+}
+
+#P-Scissors{
+    height: 10vh;
+    width: 5vw;
+    padding: 0;
+    
+}
+
+.P-rock{
+    height: 100%;
+    width: 100%;
+
+}
+
+.P-paper{
+    height: 100%;
+    width: 100%;
+
+}
+
+.P-scissors{
+    height: 100%;
+    width: 100%;
+
+}
+
+.P-pick{
+    font-size: 15px;
+    align-content: center;
+    grid-row: 4;
+
+}
+
+#P-move{
+    text-align: center;
+
+}

@@ -1,0 +1,59 @@
+.C-button-container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 40px;
+    grid-row: 1;
+    place-content: center;
+    place-items: center;
+}
+
+#C-Rock{
+    height: 10vh;
+    width: 5vw;
+    padding: 0;
+
+}
+
+#C-Paper{
+    height: 10vh;
+    width: 5vw;
+    padding: 0;
+    
+}
+
+#C-Scissors{
+    height: 10vh;
+    width: 5vw;
+    padding: 0;
+    
+}
+
+.C-rock{
+    height: 100%;
+    width: 100%;
+
+}
+
+.C-paper{
+    height: 100%;
+    width: 100%;
+
+}
+
+.C-scissors{
+    height: 100%;
+    width: 100%;
+
+}
+
+.C-pick{
+    font-size: 15px;
+    align-content: center;
+    grid-row: 2;
+
+}
+
+#C-move{
+    text-align: center;
+
+}
