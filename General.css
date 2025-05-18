@@ -1,0 +1,190 @@
+body, html{
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+  color: rgb(0, 0, 0);
+  font-family: "Press Start 2P", system-ui;
+  font-weight: 300;
+  font-style: normal;
+
+}
+
+h1{
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: 0;
+
+}
+
+.Game-Container{
+  display: grid;
+  grid-template-rows: 1fr 1.5fr 1fr 1.5fr 1fr;
+  height: 80%;
+  width: 100%;
+  background: linear-gradient(#f4103c 0, #f4103c 50%, #3ab3ff 50%, #3ab3ff 100%);
+  border-radius: 10px;
+  border: medium outset black;
+  margin: 10px;
+
+}
+
+.Game-Section{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex: 1;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 50%;
+  height: 100%;
+  margin: 0;
+
+}
+
+@media (max-width: 600px){
+    
+  .Game-Section{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex: 1;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 70%;
+  height: 100%;
+  margin: 0;
+
+}
+
+.Start{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100px;
+  z-index: 100;
+  grid-row: 3;
+  
+}
+
+.Start-btn{
+  height: 25px;
+  width: 50px;
+  padding: 0;
+  border-radius: 10px;
+
+}
+
+.vs-img{
+  height: 7vh;
+  width: 10vw;
+  margin: 0;
+
+}
+
+}
+
+.middle{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+}
+
+.Start{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100px;
+  z-index: 100;
+  grid-row: 3;
+  
+}
+
+.Start-btn{
+  height: 5vh;
+  width: 6vw;
+  padding: 0;
+  border-radius: 10px;
+  margin-left: 10px;
+
+}
+
+.Start-img{
+  height: 100%;
+  width: 100%;
+  border-radius: 10px;
+
+}
+
+#result{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100px;
+  z-index: 100;
+  grid-row: 3;
+  margin: 0;
+  text-align: center;
+
+}
+
+.vs-img{
+  height: 10vh;
+  width: 5vw;
+  margin: 0;
+
+}
+
+.C-Score-Container{
+  width: 100px;
+  place-items: end;
+  align-items: center;
+  margin: 0;
+  grid-row: 3;
+
+}
+
+.P-Score-Container{
+  width: 100px;
+  place-items: end;
+  align-content: center;
+  margin: 0;
+  grid-row: 3;
+
+}
+
+#C-Score{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #3ab3ff;
+  padding: 5px;
+  height: 3vh;
+  width: 3vw;
+  border-right: solid black;
+  border-left: solid black;
+  border-top: solid black;
+  margin: 0;
+
+}
+
+
+#P-Score{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #f4103c;
+  padding: 5px;
+  height: 3vh;
+  width: 3vw;
+  border-right: solid black;
+  border-left: solid black;
+  border-bottom: solid black;
+  margin: 0;
+
+}
